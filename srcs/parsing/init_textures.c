@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   init_textures.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nchabli <nchabli@student.42.fr>            +#+  +:+       +#+        */
+/*   By: jvalenci <jvalenci@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/09 15:07:46 by jvalenci          #+#    #+#             */
-/*   Updated: 2022/09/20 17:30:54 by nchabli          ###   ########.fr       */
+/*   Updated: 2022/09/24 13:10:16 by jvalenci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 void	init_texture(t_map *m)
 {
 	m->t->char_color = rgb_to_int(123, 34, 12);
-	m->t->wall_code = rgb_to_int(217, 72, 125);
+	m->t->wall_code = rgb_to_int(255, 80, 80);
 	m->t->textures = malloc(4 * sizeof(int *));
 	if (!m->t->textures)
 		return ;

@@ -6,7 +6,7 @@
 /*   By: jvalenci <jvalenci@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/16 10:32:44 by jvalenci          #+#    #+#             */
-/*   Updated: 2022/09/16 09:28:10 by jvalenci         ###   ########.fr       */
+/*   Updated: 2022/09/24 13:08:52 by jvalenci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,8 +55,9 @@ void	plot_line_hight(t_map *m, float *xy0, float *xy1)
 	m->l->x = xy0[0];
 	while (m->l->y < xy1[1])
 	{
-		my_mlx_pixel_put(m->s_img[0], m->l->x, m->l->y, \
-				choose_color(m, m->t->wall_code));
+				// choose_color(m, m->t->wall_code));
+        my_mlx_pixel_put(m->s_img[0], m->l->x, m->l->y, \
+                choose_color(m, m->t->wall_code));
 		if (m->l->d > 0)
 		{
 			m->l->x += m->l->xi;

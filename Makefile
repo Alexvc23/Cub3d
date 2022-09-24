@@ -6,7 +6,7 @@
 #    By: jvalenci <jvalenci@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/09/08 21:22:22 by jvalenci          #+#    #+#              #
-#    Updated: 2022/09/19 15:57:10 by jvalenci         ###   ########.fr        #
+#    Updated: 2022/09/24 13:12:17 by jvalenci         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -129,5 +129,6 @@ norme:
 re: fclean all
 
 .PHONY: re fclean clean all gmk norme
+.SILENT:
 
 -include $(DEPENDES)

@@ -3,7 +3,7 @@ EA ./textures/east.ppm
 NO ./textures/north.ppm
 SO ./textures/south.ppm
 F 242,242,242 
-C 2,62,115 
+C 217, 184, 199
 
 
 11111111111111
